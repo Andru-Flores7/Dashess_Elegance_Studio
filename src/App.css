@@ -1,6 +1,12 @@
 #root {
   max-width: 100%;
-  margin: 0 ;
+  margin: 0;
+}
+
+.container-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 body {
@@ -11,4 +17,11 @@ body {
   font-family: "Kedebideri", sans-serif;
   padding-bottom: 100px; /* Space for Dock */
   background-color: #fbf4fc;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }

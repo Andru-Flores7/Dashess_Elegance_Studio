@@ -1,15 +1,23 @@
-.saludo-title {
-  font-size: 2.5rem;
-  text-align: center;
-  margin: 20px 0;
-}
-
 .saludo-conteiner-logo {
-  text-align: center;
   margin-top: 40px;
 }
 
 .saludo-conteiner-logo .logo {
   width: 200px;
   height: 200px;
+  border-radius: 50%;
 }
+
+.saludo-title {
+  font-size: 1.5rem;
+   margin: 20px 0;
+}
+
+.saludo-subtitle{
+    font-size: .7rem;
+    width: 50%;
+    text-align: center;
+}
+
+
+
