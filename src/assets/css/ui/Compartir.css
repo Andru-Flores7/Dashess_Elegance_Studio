@@ -1,0 +1,11 @@
+.button-compartir {
+  display: flex;
+  gap: 4px;
+  background-color: #bc84f4;
+  color: white;
+  border: none;
+  border-radius: 11px;
+  padding: 4px 10px;
+  cursor: pointer;
+  font-family: inherit;
+}

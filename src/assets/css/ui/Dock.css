@@ -1,0 +1,31 @@
+.dock-container {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  background: rgba(
+    201,
+    167,
+    235,
+    0.6
+  ); /* Using header color with transparency */
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  align-items: flex-end;
+  height: 60px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.dock-icon {
+  aspect-ratio: 1/1;
+  background-color: #bc84f4;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
