@@ -1,0 +1,45 @@
+.services-section {
+  padding: 60px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-title {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #4a4a4a;
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+.services-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #c9a7eb;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+.services-subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 50px;
+  font-size: 1.1rem;
+  max-width: 600px;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1200px;
+  width: 100%;
+}
