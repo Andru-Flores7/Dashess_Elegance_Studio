@@ -1,12 +1,14 @@
-import React from 'react'
-import "../../assets/css/ui/Button.css"
+import React from "react";
+import "../../assets/css/ui/Button.css";
 
-const Button = ({service}) => {
+const Button = ({ service, onClick, ...props }) => {
   return (
     <>
-    <button className='comic-button'>{service}</button>
+      <button className="comic-button" onClick={onClick} {...props}>
+        {service}
+      </button>
     </>
-  )
-}
+  );
+};
 
-export default Button
+export default Button;
