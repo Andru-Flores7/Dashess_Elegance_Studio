@@ -1,8 +1,17 @@
-import DomeGallery from '../components/ui/DomGallery';
-export default function Gallery() {
+import CircularGallery from '../components/ui/CircularGallery'
+
+
+import React from 'react'
+
+const Gallery = () => {
   return (
-    <div style={{ width: '100vw', height: '100vh' }}>
-      <DomeGallery />
-    </div>
-  );
+    <>
+    <div style={{ height: '600px', position: 'relative' }}>
+  <CircularGallery bend={3} textColor="#ffffff" borderRadius={0.05} scrollEase={0.02}/>
+</div>
+    </>
+  )
 }
+
+export default Gallery
+

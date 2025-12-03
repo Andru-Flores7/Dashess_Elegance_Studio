@@ -8,9 +8,9 @@ const MainLayaut = () => {
   const navigate = useNavigate();
 
   const items = [
-    { icon: "bi-stars", onClick: () => navigate("/turnos") }, // Servicios
-    { icon: "bi bi-house-fill", onClick: () => navigate("/") }, // Trabajos
     { icon: "bi-images", onClick: () => navigate("/Gallery") }, // Galería
+    { icon: "bi bi-house-fill", onClick: () => navigate("/") }, // home
+    { icon: "bi bi-whatsapp", onClick: () => navigate("/Gallery") }, // whatsapp
   ];
 
   return (
