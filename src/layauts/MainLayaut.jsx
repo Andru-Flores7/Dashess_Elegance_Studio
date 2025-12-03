@@ -10,7 +10,7 @@ const MainLayaut = () => {
   const items = [
     { icon: "bi-images", onClick: () => navigate("/Gallery") }, // Galería
     { icon: "bi bi-house-fill", onClick: () => navigate("/") }, // home
-    { icon: "bi bi-whatsapp", onClick: () => navigate("/Gallery") }, // whatsapp
+    { icon: "bi bi-whatsapp", onClick: () => navigate("/booking") }, // whatsapp
   ];
 
   return (

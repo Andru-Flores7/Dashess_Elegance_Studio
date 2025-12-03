@@ -47,7 +47,10 @@ const Home = () => {
         <Saludo />
         <section>
           <Button service="Servicios" />
-          <Button service="Reservar Cita" />
+          <Button
+            service="Reservar Cita"
+            onClick={() => navigate("/booking")}
+          />
           <Button service="Galería" onClick={() => navigate("/Gallery")} />
         </section>
 
