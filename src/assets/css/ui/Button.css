@@ -17,10 +17,10 @@
 }
 
 .comic-button:hover {
-  background-color: #d18bda;
-  color: #ed7dd1;
-  border: 2px solid     #ed7dd1;
-  box-shadow: 5px 5px 0px #ed7dd1;
+  background-color: #ceb7d1;
+  color: #f1f1f1;
+  border: 2px solid  #ceb7d1;
+  box-shadow: 5px 5px 0px#ceb7d1;
 }
 
 .comic-button:active {
