@@ -9,7 +9,8 @@ export const obtenerServicios = async () => {
   try {
     const { data, error } = await supabase
       .from('services')
-      .select('*');
+      .select('*')
+      .order('id', { ascending: true });
 
     if (error) throw error;
     

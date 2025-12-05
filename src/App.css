@@ -1,9 +1,14 @@
+@view-transition{
+  navigation : auto;
+}
+
 #root {
   max-width: 100%;
   margin: 0;
 }
 
 .container-app {
+  padding: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
