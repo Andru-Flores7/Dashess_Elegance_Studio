@@ -22,7 +22,7 @@
   /* Animation configuration */
   animation: dock-progress linear both;
   animation-timeline: scroll();
-  animation-range: 0px 400px;
+  animation-range: 0px 200px;
 }
 
 @keyframes dock-progress {
