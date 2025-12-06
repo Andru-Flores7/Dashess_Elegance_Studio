@@ -5,7 +5,12 @@
   color: white;
   border: none;
   border-radius: 11px;
-  padding: 4px 10px;
+  padding: 9px 10px;
   cursor: pointer;
   font-family: inherit;
+  transition: all 1.5s ease;
+}
+
+.button-compartir:hover {
+  background-color: #d982cc;
 }

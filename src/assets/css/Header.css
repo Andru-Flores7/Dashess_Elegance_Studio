@@ -5,7 +5,7 @@
   background: #c9a7eb;
   height: 80px;
   align-items: center;
-  padding: 0 2px;
+  padding: 6px;
 }
 
 .header-conteiner-title-logo{
@@ -27,29 +27,19 @@
 
 @media (min-width: 600px) {
   .header {
-  display: flex;
-  justify-content: space-between;
-  font-family: "Playfair Display", serif;
-  background: #c9a7eb;
-  height: 80px;
-  align-items: center;
-  padding: 0 2px;
+ 
+  padding: 10px;
 }
 
 .header-conteiner-title-logo{
-    display: flex;
-    align-items: center;
+ 
 }
 
 .header .header-conteiner-title-logo .logo{
-    width: 35px;
-    height: 35px;
+ 
 }
 
 .header-title {
-  font-size: 1.7rem;
-  font-weight: 700;
-  margin: 0;
-  letter-spacing: 0.5px;
+
 }
     }

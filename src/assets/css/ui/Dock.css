@@ -18,6 +18,27 @@
   height: 42px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   z-index: 1000;
+
+  /* Animation configuration */
+  animation: dock-progress linear both;
+  animation-timeline: scroll();
+  animation-range: 0px 400px;
+}
+
+@keyframes dock-progress {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, 100%);
+  }
+  50%{
+    scale: 0.5;
+    opacity: 0.1;
+    transform: translate(-50%, 50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
 }
 
 .dock-icon {
