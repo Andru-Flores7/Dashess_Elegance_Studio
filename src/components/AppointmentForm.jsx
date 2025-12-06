@@ -22,7 +22,7 @@ const AppointmentForm = () => {
     e.preventDefault();
 
     // Número de teléfono de WhatsApp (Reemplazar con el número real)
-    const phoneNumber = "5491122334455"; // Ejemplo: 54 9 11 1234 5678
+    const phoneNumber = "5493885978895"; // Ejemplo: 54 9 11 1234 5678
 
     const text =
       `Hola! Me gustaría agendar una cita.%0A%0A` +

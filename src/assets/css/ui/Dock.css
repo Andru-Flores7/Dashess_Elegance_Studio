@@ -20,9 +20,9 @@
   z-index: 1000;
 
   /* Animation configuration */
-  animation: dock-progress linear both;
+  animation: dock-progress linear .6s both; 
   animation-timeline: scroll();
-  animation-range: 0px 200px;
+  animation-range: 0px 400px;
 }
 
 @keyframes dock-progress {
