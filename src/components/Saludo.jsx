@@ -5,7 +5,7 @@ const Saludo = () => {
   return (
     <>
     <div className="saludo-conteiner-logo">
-      <img className="logo" src="https://res.cloudinary.com/ddex5oirz/image/upload/v1764458434/Sin_t%C3%ADtulo_vdeftl.jpg" alt="Logo Dashes Elegance" /> 
+      <img className="logo" src="https://res.cloudinary.com/ddex5oirz/image/upload/v1765220893/unnamed_d7l6ct.jpg" alt="Logo Dashes Elegance" /> 
     </div>
     
       <h1 className="saludo-title">Lashes Elegance Studio</h1>
