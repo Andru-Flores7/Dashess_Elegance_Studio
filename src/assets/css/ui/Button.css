@@ -28,3 +28,22 @@
   box-shadow: none;
   transform: translateY(4px);
 }
+
+@media (min-width:1024px) {
+
+.comic-button {
+  width: 50%;
+
+  
+}
+
+
+  
+
+}
+
+
+
+
+
+
