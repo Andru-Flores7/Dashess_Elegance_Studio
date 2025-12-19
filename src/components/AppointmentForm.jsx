@@ -89,18 +89,22 @@ const AppointmentForm = () => {
             />
           </div>
           <div style={{ flex: 1 }}>
-            <label className="form-label" htmlFor="time">
+            <label className="form-label" htmlFor="time" required>
               Hora Preferida
             </label>
-            <input
-              type="time"
+            <select
               id="time"
               name="time"
-              className="form-input"
+              className="form-select"
               value={formData.time}
               onChange={handleChange}
               required
-            />
+            >
+              <option value="">Selecciona una hora</option>
+              <option value="10:00 AM">10:00 AM</option>
+              <option value="15:00 PM">15:00 PM</option>
+              <option value="18:00 PM">18:00 PM</option>
+              </select>
           </div>
         </div>
 
